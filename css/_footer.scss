@@ -1,0 +1,51 @@
+footer{
+    padding: 70px 0 75px 0;
+    background-color: $veryDarkViolet;
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+        .logo-link svg path{
+            fill: #fff;
+        }
+        
+        .categories{
+            max-width: 600px;
+            min-height: 165px;
+            display: flex;
+            gap: 100px;
+            color: #fff;
+
+            .category{
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+
+                h4{
+                    font-size: 1.6rem;
+                    margin-bottom: 14px;
+                }
+
+                a{
+                    font-size: 1.6rem;
+                    text-decoration: none;
+                    color: $gray;
+
+                    &:hover{
+                        color: $cyan;
+                    }
+                }
+            }
+        }
+
+        .socials{
+            display: flex;
+            gap: 24px;
+
+            a:hover svg path{
+                fill: $cyan;
+            }
+        }
+    }
+}

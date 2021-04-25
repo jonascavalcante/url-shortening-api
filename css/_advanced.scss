@@ -1,0 +1,66 @@
+#advanced{
+    margin-top: -84px;
+    padding: 214px 0 120px 0;
+    background-color: $grayLigth;
+
+    .container{
+        
+        h2{
+            font-size: 3.4rem;
+            text-align: center;
+        }
+
+        >p{
+            max-width: 525px;
+            margin: 33px auto 106px auto;
+            text-align: center;
+            color: $grayishViolet;
+        }
+
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            
+            .card{
+                max-width: 350px;
+                height: min-content;
+                padding: 0 32px 44px 32px;
+                background-color: #fff;
+                border-radius: 5px;
+
+                img{
+                    height: 88px;
+                    margin-top: -44px;
+                    padding: 14px;
+                    object-fit: none;
+                    background-color: $darkViolet;
+                    border-radius: 100%;
+                }
+    
+                h3{
+                    font-size: 2.2rem;
+                    margin: 23px 0 23px 0;
+                }
+
+                p{
+                    font-size: 1.5rem;
+                    color: $grayishViolet;
+                }
+
+                &.card-2{
+                    margin-top: 44px;
+                }
+                &.card-3{
+                    margin-top: 88px;
+                }
+            }
+    
+            .line{
+                align-self: center;
+                flex: 1;
+                height: 8px;
+                background-color: $cyan;
+            }
+        }
+    }
+}

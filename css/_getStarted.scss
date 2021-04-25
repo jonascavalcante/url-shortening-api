@@ -1,0 +1,32 @@
+#getStarted{
+    background-image: url(../images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $darkViolet;
+    padding: 67px 0 57px 0;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            margin-bottom: 28px;
+            font-size: 3.4rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        button{
+            width: 197px;
+            height: 56px;
+            color: #fff;
+            background-color: $cyan;
+            border-radius: 35px;
+            border: transparent;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+    }
+}

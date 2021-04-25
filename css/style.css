@@ -146,7 +146,12 @@ header .container .buttons button:last-of-type {
   left: 20%;
 }
 
-#shorten .container {
+#shorten {
+  position: relative;
+  z-index: 1;
+}
+
+#shorten .container .container-2 {
   max-width: 1110px;
   padding: 52px;
   border-radius: 10px;
@@ -159,7 +164,7 @@ header .container .buttons button:last-of-type {
   display: flex;
 }
 
-#shorten .container input {
+#shorten .container .container-2 input {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -172,7 +177,7 @@ header .container .buttons button:last-of-type {
   font-size: 1.8rem;
 }
 
-#shorten .container button {
+#shorten .container .container-2 button {
   width: 188px;
   height: 64px;
   border-radius: 10px;
@@ -182,6 +187,187 @@ header .container .buttons button:last-of-type {
   cursor: pointer;
   font-weight: 700;
   font-size: 1.8rem;
+}
+
+#advanced {
+  margin-top: -84px;
+  padding: 214px 0 120px 0;
+  background-color: #F0F1F6;
+}
+
+#advanced .container h2 {
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+#advanced .container > p {
+  max-width: 525px;
+  margin: 33px auto 106px auto;
+  text-align: center;
+  color: #9e9aa7;
+}
+
+#advanced .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#advanced .container .cards .card {
+  max-width: 350px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 0 32px 44px 32px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#advanced .container .cards .card img {
+  height: 88px;
+  margin-top: -44px;
+  padding: 14px;
+  -o-object-fit: none;
+     object-fit: none;
+  background-color: #3b3054;
+  border-radius: 100%;
+}
+
+#advanced .container .cards .card h3 {
+  font-size: 2.2rem;
+  margin: 23px 0 23px 0;
+}
+
+#advanced .container .cards .card p {
+  font-size: 1.5rem;
+  color: #9e9aa7;
+}
+
+#advanced .container .cards .card.card-2 {
+  margin-top: 44px;
+}
+
+#advanced .container .cards .card.card-3 {
+  margin-top: 88px;
+}
+
+#advanced .container .cards .line {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 8px;
+  background-color: #2acfcf;
+}
+
+#getStarted {
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3054;
+  padding: 67px 0 57px 0;
+}
+
+#getStarted .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#getStarted .container h2 {
+  margin-bottom: 28px;
+  font-size: 3.4rem;
+  text-align: center;
+  color: #fff;
+}
+
+#getStarted .container button {
+  width: 197px;
+  height: 56px;
+  color: #fff;
+  background-color: #2acfcf;
+  border-radius: 35px;
+  border: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+footer {
+  padding: 70px 0 75px 0;
+  background-color: #232127;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .logo-link svg path {
+  fill: #fff;
+}
+
+footer .container .categories {
+  max-width: 600px;
+  min-height: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+  color: #fff;
+}
+
+footer .container .categories .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+
+footer .container .categories .category h4 {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+}
+
+footer .container .categories .category a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+footer .container .categories .category a:hover {
+  color: #2acfcf;
+}
+
+footer .container .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+footer .container .socials a:hover svg path {
+  fill: #2acfcf;
 }
 
 @media (min-width: 1440px) {
