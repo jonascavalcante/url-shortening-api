@@ -1,0 +1,59 @@
+header{
+    padding: 48px 0;
+    
+    .container{
+        display: flex;
+        align-items: center;
+
+        .logo-link{
+            display: flex;
+        }
+    
+        nav{          
+            margin: 0 45px;
+
+            ul{
+                display: flex;
+                gap: 18px;
+    
+                li{
+                    list-style: none;
+    
+                    a{
+                        font-weight: 700;
+                        font-size: 1.6rem;
+                        text-decoration: none;
+                        color: $grayishViolet;
+                    }
+                }
+            }    
+        } 
+
+        .buttons{
+            margin-left: auto;
+
+            button{
+                width: 105px;
+                height: 40px;
+                border-radius: 20px;
+                border: transparent;
+                cursor: pointer;
+                font-weight: 700;
+                font-size: 1.6rem;
+
+                &:first-of-type{
+                    width: min-content;
+                    height: min-content;
+                    margin-right: 35px;
+                    color: $grayishViolet;
+                    background-color: #fff;
+                }
+
+                &:last-of-type{
+                    color: #fff;
+                    background-color: $cyan;
+                }
+            }
+        }
+    }
+}

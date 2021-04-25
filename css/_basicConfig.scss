@@ -1,0 +1,35 @@
+$cyan: hsl(180, 66%, 49%);
+$darkViolet: hsl(257, 27%, 26%);
+
+$red: hsl(0, 87%, 67%);
+
+$gray: hsl(0, 0%, 75%);
+$grayishViolet: hsl(257, 7%, 63%);
+$veryDarkBlue: hsl(255, 11%, 22%);
+$veryDarkViolet: hsl(260, 8%, 14%);
+
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: transparent;
+    -webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    font-size: 1.8rem; /* 1.8rem * 10 = 18px */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 11.458%;
+}

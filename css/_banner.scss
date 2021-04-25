@@ -1,0 +1,46 @@
+#banner{
+    padding: 100px 0 138px 0;
+    overflow-x: hidden;
+
+    .container{
+        display: flex;
+
+        .texts{
+            width: 50%;
+
+            h1{
+                line-height: 110%;
+                font-size: 4.87vw;
+            }
+            
+            p{
+                font-size: 2.2rem;
+                margin: 22px 0 40px 0;
+                color: $grayishViolet;
+            }
+
+            button{
+                width: 197px;
+                height: 56px;
+                color: #fff;
+                background-color: $cyan;
+                border-radius: 35px;
+                border: transparent;
+                cursor: pointer;
+                font-weight: 700;
+                font-size: 1.8rem;
+            }
+        }
+
+        .image{
+            width: 50%;
+            position: relative;
+
+            img{
+                position: absolute;
+                top: -20%;
+                left: 20%;
+            }
+        }
+    }
+}
