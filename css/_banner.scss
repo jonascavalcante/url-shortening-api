@@ -11,6 +11,7 @@
             h1{
                 line-height: 110%;
                 font-size: 4.87vw;
+                color: $veryDarkViolet;
             }
             
             p{
@@ -29,6 +30,10 @@
                 cursor: pointer;
                 font-weight: 700;
                 font-size: 1.8rem;
+
+                &:hover{
+                    background-color: $cyanHover;
+                }
             }
         }
 

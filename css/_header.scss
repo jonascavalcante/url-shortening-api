@@ -24,6 +24,10 @@ header{
                         font-size: 1.6rem;
                         text-decoration: none;
                         color: $grayishViolet;
+
+                        &:hover{
+                            color: $veryDarkViolet;
+                        }
                     }
                 }
             }    
@@ -47,11 +51,19 @@ header{
                     margin-right: 35px;
                     color: $grayishViolet;
                     background-color: #fff;
+
+                    &:hover{
+                        color: $veryDarkViolet
+                    }
                 }
 
                 &:last-of-type{
                     color: #fff;
                     background-color: $cyan;
+
+                    &:hover{
+                        background-color: $cyanHover;
+                    }
                 }
             }
         }

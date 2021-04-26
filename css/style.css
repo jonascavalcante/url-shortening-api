@@ -66,6 +66,10 @@ header .container nav ul li a {
   color: #9e9aa7;
 }
 
+header .container nav ul li a:hover {
+  color: #232127;
+}
+
 header .container .buttons {
   margin-left: auto;
 }
@@ -92,9 +96,17 @@ header .container .buttons button:first-of-type {
   background-color: #fff;
 }
 
+header .container .buttons button:first-of-type:hover {
+  color: #232127;
+}
+
 header .container .buttons button:last-of-type {
   color: #fff;
   background-color: #2acfcf;
+}
+
+header .container .buttons button:last-of-type:hover {
+  background-color: #9BE3E2;
 }
 
 #banner {
@@ -115,6 +127,7 @@ header .container .buttons button:last-of-type {
 #banner .container .texts h1 {
   line-height: 110%;
   font-size: 4.87vw;
+  color: #232127;
 }
 
 #banner .container .texts p {
@@ -133,6 +146,10 @@ header .container .buttons button:last-of-type {
   cursor: pointer;
   font-weight: 700;
   font-size: 1.8rem;
+}
+
+#banner .container .texts button:hover {
+  background-color: #9BE3E2;
 }
 
 #banner .container .image {
@@ -189,6 +206,10 @@ header .container .buttons button:last-of-type {
   font-size: 1.8rem;
 }
 
+#shorten .container .container-2 button:hover {
+  background-color: #9BE3E2;
+}
+
 #advanced {
   margin-top: -84px;
   padding: 214px 0 120px 0;
@@ -198,6 +219,7 @@ header .container .buttons button:last-of-type {
 #advanced .container h2 {
   font-size: 3.4rem;
   text-align: center;
+  color: #232127;
 }
 
 #advanced .container > p {
@@ -239,6 +261,7 @@ header .container .buttons button:last-of-type {
 #advanced .container .cards .card h3 {
   font-size: 2.2rem;
   margin: 23px 0 23px 0;
+  color: #232127;
 }
 
 #advanced .container .cards .card p {
@@ -303,6 +326,10 @@ header .container .buttons button:last-of-type {
   cursor: pointer;
   font-weight: 700;
   font-size: 1.8rem;
+}
+
+#getStarted .container button:hover {
+  background-color: #9BE3E2;
 }
 
 footer {
