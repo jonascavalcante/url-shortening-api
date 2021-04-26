@@ -26,7 +26,12 @@ body {
 }
 
 header {
+  width: 100%;
   padding: 48px 0;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
 }
 
 header .container {
@@ -110,6 +115,7 @@ header .container .buttons button:last-of-type:hover {
 }
 
 #banner {
+  margin-top: 136px;
   padding: 100px 0 138px 0;
   overflow-x: hidden;
 }
