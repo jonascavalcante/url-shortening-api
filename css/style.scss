@@ -7,15 +7,19 @@
 @import "responsive";
     
 
-.border {
+.border{
     border: 1px solid gold;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
+.attribution{
+    padding: 10px 0;
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    .container{
+        font-size: 11px;
+        text-align: center;
+        
+        a{
+            color: hsl(228, 45%, 44%);
+        }
+    }
 }

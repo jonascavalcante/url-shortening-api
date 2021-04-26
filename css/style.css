@@ -488,10 +488,14 @@ footer .container .socials a:hover svg path {
 }
 
 .attribution {
+  padding: 10px 0;
+}
+
+.attribution .container {
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+.attribution .container a {
   color: #3e52a3;
 }
