@@ -3,4 +3,14 @@
     .container{
         padding: 0 165px;
     }
+
+    #banner{
+        .container{
+            .texts{
+                h1{
+                    font-size: 74px;
+                } 
+            }
+        }
+    }
 }
