@@ -11,7 +11,7 @@
 
             h1{
                 line-height: 110%;
-                font-size: 4.87vw;
+                font-size: 5vw;
                 color: $veryDarkViolet;
             }
             
@@ -43,9 +43,10 @@
             position: relative;
 
             img{
+                width: 50.9vw;
                 position: absolute;
-                top: -20%;
-                left: 20%;
+                top: -5vw;
+                left: 5vw;
             }
         }
     }

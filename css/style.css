@@ -132,7 +132,7 @@ header .container .buttons button:last-of-type:hover {
 
 #banner .container .texts h1 {
   line-height: 110%;
-  font-size: 4.87vw;
+  font-size: 5vw;
   color: #232127;
 }
 
@@ -164,9 +164,10 @@ header .container .buttons button:last-of-type:hover {
 }
 
 #banner .container .image img {
+  width: 50.9vw;
   position: absolute;
-  top: -20%;
-  left: 20%;
+  top: -5vw;
+  left: 5vw;
 }
 
 #advanced {
@@ -474,12 +475,16 @@ footer .container .socials a:hover svg path {
   fill: #2acfcf;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
   .container {
     padding: 0 165px;
   }
   #banner .container .texts h1 {
-    font-size: 74px;
+    font-size: 7.38rem;
+  }
+  #banner .container .image img {
+    width: 733px;
+    top: -70px;
   }
 }
 

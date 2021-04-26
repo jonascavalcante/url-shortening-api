@@ -1,4 +1,4 @@
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
     
     .container{
         padding: 0 165px;
@@ -8,8 +8,15 @@
         .container{
             .texts{
                 h1{
-                    font-size: 74px;
+                    font-size: 7.38rem;
                 } 
+            }
+            
+            .image{
+                img{
+                    width: 733px;
+                    top: -70px;
+                }
             }
         }
     }
