@@ -31,6 +31,9 @@
 
                     &.error{
                         border: 3px solid $red;
+                        &::placeholder{
+                            color: $red;
+                        }
                     }
                 }
 
@@ -135,6 +138,7 @@
             justify-content: space-between;
             
             .card{
+                flex: 1;
                 max-width: 350px;
                 height: min-content;
                 padding: 0 32px 44px 32px;
@@ -171,7 +175,8 @@
     
             .line{
                 align-self: center;
-                flex: 1;
+                display: block;
+                min-width: 30px;
                 height: 8px;
                 background-color: $cyan;
             }

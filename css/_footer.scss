@@ -5,16 +5,19 @@ footer{
     .container{
         display: flex;
         justify-content: space-between;
+        gap: 45px;
 
         .logo-link svg path{
             fill: #fff;
         }
         
         .categories{
-            max-width: 600px;
+            width: 100%;
+            max-width: 500px;
             min-height: 165px;
             display: flex;
-            gap: 100px;
+            justify-content: space-between;
+            gap: 45px;
             color: #fff;
 
             .category{
@@ -42,9 +45,15 @@ footer{
         .socials{
             display: flex;
             gap: 24px;
-
-            a:hover svg path{
-                fill: $cyan;
+            
+            a{
+                height: 24px;
+                display: flex;
+                align-items: center;
+                
+                &:hover svg path{
+                    fill: $cyan;
+                }
             }
         }
     }

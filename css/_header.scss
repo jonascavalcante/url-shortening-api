@@ -14,62 +14,84 @@ header{
             display: flex;
         }
     
-        nav{          
-            margin: 0 45px;
+        .menu{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
-            ul{
-                display: flex;
-                gap: 18px;
+            nav{          
+                margin: 0 45px;
     
-                li{
-                    list-style: none;
+                ul{
+                    display: flex;
+                    gap: 18px;
+        
+                    li{
+                        list-style: none;
+        
+                        a{
+                            font-weight: 700;
+                            font-size: 1.6rem;
+                            text-decoration: none;
+                            color: $grayishViolet;
     
-                    a{
-                        font-weight: 700;
-                        font-size: 1.6rem;
-                        text-decoration: none;
+                            &:hover{
+                                color: $veryDarkViolet;
+                            }
+                        }
+                    }
+                }    
+            } 
+    
+            .buttons{    
+                button{
+                    width: 105px;
+                    height: 40px;
+                    border-radius: 20px;
+                    border: transparent;
+                    cursor: pointer;
+                    font-weight: 700;
+                    font-size: 1.6rem;
+    
+                    &:first-of-type{
+                        width: min-content;
+                        height: min-content;
+                        margin-right: 35px;
                         color: $grayishViolet;
-
+                        background-color: #fff;
+    
                         &:hover{
-                            color: $veryDarkViolet;
+                            color: $veryDarkViolet
+                        }
+                    }
+    
+                    &:last-of-type{
+                        color: #fff;
+                        background-color: $cyan;
+    
+                        &:hover{
+                            background-color: $cyanHover;
                         }
                     }
                 }
-            }    
-        } 
+            }
+        }
 
-        .buttons{
+        .menu-button{
+            display: none;
+            align-items: center;
+            width: 24px;
+            height: 33px;
             margin-left: auto;
-
-            button{
-                width: 105px;
-                height: 40px;
-                border-radius: 20px;
-                border: transparent;
-                cursor: pointer;
-                font-weight: 700;
-                font-size: 1.6rem;
-
-                &:first-of-type{
-                    width: min-content;
-                    height: min-content;
-                    margin-right: 35px;
-                    color: $grayishViolet;
-                    background-color: #fff;
-
-                    &:hover{
-                        color: $veryDarkViolet
-                    }
-                }
-
-                &:last-of-type{
-                    color: #fff;
-                    background-color: $cyan;
-
-                    &:hover{
-                        background-color: $cyanHover;
-                    }
-                }
+            background-color: transparent;
+            outline: transparent;
+            border: none;
+            cursor: pointer;
+            
+            img{
+                width: 24px;
+                height: 21px;
             }
         }
     }
