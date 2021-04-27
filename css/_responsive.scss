@@ -338,12 +338,34 @@
     
     #advanced{
         .container{
+            .shorten-area{
+                .shorten{
+                    background-image: url(../images/bg-shorten-mobile.svg);
+                    background-position-x: 80px;
+                    background-position-y: -50px;
+                }
+            }
+
+            h2{
+                font-size: 2.8rem;
+            }
+
             .cards{
                 .card{
                     p{
                         font-size: 1.48rem;
                     }
                 }
+            }
+        }
+    }
+
+    #getStarted{
+        background-image: url(../images/bg-boost-mobile.svg);
+
+        .container{
+            h2{
+                font-size: 2.8rem;
             }
         }
     }
