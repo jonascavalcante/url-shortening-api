@@ -313,8 +313,12 @@ header .container .menu-button img {
 }
 
 #advanced .container .shorten-area .shorten-link-areas.active .shorten-link-area .shorten-link {
+  font-size: 1.8rem;
+  border: none;
   margin: 0 24px 0 auto;
   color: #2acfcf;
+  background-color: #fff;
+  text-align: right;
 }
 
 #advanced .container .shorten-area .shorten-link-areas.active .shorten-link-area button {
@@ -795,6 +799,7 @@ footer .container .socials a:hover svg path {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: left;
   }
   #advanced .container .shorten-area .shorten-link-areas.active .shorten-link-area .link {
     height: 49px;

@@ -78,16 +78,16 @@
           <!-- CHANGE error -->
           <span class="">Please add a link</span>
 
-          <button>Shorten It!</button>
+          <button onClick="apiFunction()">Shorten It!</button>
         </form>
         
         <!-- CHANGE active -->
         <div class="shorten-link-areas">
 
           <div class="shorten-link-area">
-            <div class="link">https://github.com/jonascavalcante</div>
-            <div class="shorten-link">https://git.c/jc</div>
-            <button class="">Copy</button>
+            <p class="link"></p>
+            <input type="text" class="shorten-link" id="shorten-link" value="Loading..." readonly=“true”/>
+            <button class="" id="copy" onClick="copyT(this)">Copy</button>
           </div>
 
         </div>
