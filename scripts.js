@@ -164,4 +164,10 @@ function apiFetch(event, inputLinkValue) {
                 }, 5000);
             })
         })
+        .catch((error) => {
+            console.log(error);
+            shortenLink.value = 'Inválido!';
+            shortenLink.style.color = 'red';
+            activingInputAndButton(event);
+        })
 }
