@@ -73,24 +73,16 @@
         <form class="shorten">
           
           <!-- CHANGE error -->
-          <input required class="" type="url" placeholder="Shorten a link here...">
+          <input class="" type="text" placeholder="Shorten a link here...">
           
           <!-- CHANGE error -->
           <span class="">Please add a link</span>
 
-          <button onClick="apiFunction()">Shorten It!</button>
+          <button onClick="apiFunction(event)">Shorten It!</button>
         </form>
         
         <!-- CHANGE active -->
-        <div class="shorten-link-areas">
-
-          <div class="shorten-link-area">
-            <p class="link"></p>
-            <input type="text" class="shorten-link" id="shorten-link" value="Loading..." readonly=“true”/>
-            <button class="" id="copy" onClick="copyT(this)">Copy</button>
-          </div>
-
-        </div>
+        <div class="shorten-link-areas"></div>
 
       </div>
 
