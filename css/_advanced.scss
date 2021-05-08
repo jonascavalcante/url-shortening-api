@@ -74,7 +74,8 @@
 
                 &.active{
                     margin-top: 24px;
-                    display: grid;
+                    display: flex;
+                    flex-direction: column;
                     gap: 16px;
     
                     .shorten-link-area{
@@ -87,7 +88,9 @@
                         background-color: #fff;
         
                         .link{
+                            width: 65%;
                             color: $veryDarkViolet;
+                            overflow: hidden;
                         }
         
                         .shorten-link{

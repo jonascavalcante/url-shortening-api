@@ -85,8 +85,10 @@ function apiFunction(event) {
 
         apiFetch(event, inputLinkValue);
         
+        inputLink.classList.remove('error');
         spanError.classList.remove('error');
     } else {
+        inputLink.classList.add('error');
         spanError.classList.add('error');
     }
 }

@@ -287,8 +287,13 @@ header .container .menu-button img {
 
 #advanced .container .shorten-area .shorten-link-areas.active {
   margin-top: 24px;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 16px;
 }
 
@@ -309,7 +314,9 @@ header .container .menu-button img {
 }
 
 #advanced .container .shorten-area .shorten-link-areas.active .shorten-link-area .link {
+  width: 65%;
   color: #232127;
+  overflow: hidden;
 }
 
 #advanced .container .shorten-area .shorten-link-areas.active .shorten-link-area .shorten-link {
