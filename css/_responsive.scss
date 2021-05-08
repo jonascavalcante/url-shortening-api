@@ -266,7 +266,10 @@
                         flex: none;
                         width: 100%;
                         padding: 0 15px;
-                        margin-bottom: 35px;
+
+                        &.error{
+                            margin-bottom: 35px;
+                        }
                     }
 
                     span{

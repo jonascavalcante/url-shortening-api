@@ -771,6 +771,8 @@ footer .container .socials a:hover svg path {
             flex: none;
     width: 100%;
     padding: 0 15px;
+  }
+  #advanced .container .shorten-area .shorten input.error {
     margin-bottom: 35px;
   }
   #advanced .container .shorten-area .shorten span {
